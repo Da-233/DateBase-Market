@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fc7e12c-5bac-4de9-ada5-b55ee58b6812" name="更改" comment="新建项目">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/demo1App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/dto/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/mapper/ClientMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/test/java/com/snp/MapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1fc7e12c-5bac-4de9-ada5-b55ee58b6812" name="更改" comment="新建项目" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +37,6 @@
     "JUnit.MapperTest.test1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Demo1App.executor": "Run",
     "Spring Boot.demo1App.executor": "Run",
     "git-widget-placeholder": "master",
@@ -156,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711112472971</updated>
       <workItem from="1711112474029" duration="715000" />
-      <workItem from="1711118232921" duration="7083000" />
+      <workItem from="1711118232921" duration="7601000" />
     </task>
     <task id="LOCAL-00001" summary="新建项目">
       <option name="closed" value="true" />
@@ -166,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711112578237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新建项目">
+      <option name="closed" value="true" />
+      <created>1711125758491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125758491</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新建项目">
+      <option name="closed" value="true" />
+      <created>1711125830041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125830041</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
