@@ -1,7 +1,9 @@
 package com.snp.dto;
 
-import java.time.LocalDateTime;
+import jdk.jfr.DataAmount;
 
+import java.time.LocalDateTime;
+ 
 public class Client {
     private String id;
     private String firmId;
@@ -16,6 +18,24 @@ public class Client {
     private String email;
     private LocalDateTime regDate;
 
+    public Client() {
+    }
+
+    public Client(String id, String firmId, String contactName, String contactJob, String address, String city, String region, String postalCoda, String country, String phoneNum, String email, LocalDateTime regDate) {
+        this.id = id;
+        this.firmId = firmId;
+        this.contactName = contactName;
+        this.contactJob = contactJob;
+        this.address = address;
+        this.city = city;
+        this.region = region;
+        this.postalCoda = postalCoda;
+        this.country = country;
+        this.phoneNum = phoneNum;
+        this.email = email;
+        this.regDate = regDate;
+    }
+
     public String getId() {
         return id;
     }
@@ -24,9 +44,7 @@ public class Client {
         this.id = id;
     }
 
-    public String getFirmId() {
-        return firmId;
-    }
+    public String getFirmId() {return firmId;}
 
     public void setFirmId(String firmId) {
         this.firmId = firmId;
@@ -64,9 +82,7 @@ public class Client {
         this.city = city;
     }
 
-    public String getRegion() {
-        return region;
-    }
+    public String getRegion() {return region;}
 
     public void setRegion(String region) {
         this.region = region;

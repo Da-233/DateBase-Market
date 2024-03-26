@@ -15,9 +15,11 @@ public class MapperTest {
     ClientMapper clientMapper;
     @Test
     public void test1(){
+        Client client = clientMapper.findById("ANATR");
+        System.out.println(client);
         List<Client> clients = clientMapper.findAll();
-        for (Client client : clients) {
-            System.out.println(client);
+        for (Client cli : clients) {
+            System.out.println(cli);
         }
     }
 }
