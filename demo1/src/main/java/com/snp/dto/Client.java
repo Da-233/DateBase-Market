@@ -1,53 +1,63 @@
 package com.snp.dto;
 
-import jdk.jfr.DataAmount;
-
 import java.time.LocalDateTime;
  
 public class Client {
-    private String id;
-    private String firmId;
+    private String name;
+    private int id;
+    private String firmName;
     private String contactName;
     private String contactJob;
     private String address;
     private String city;
     private String region;
-    private String postalCoda;
+    private String postCode;
     private String country;
     private String phoneNum;
     private String email;
-    private LocalDateTime regDate;
+    private LocalDateTime registerDate;
 
     public Client() {
     }
 
-    public Client(String id, String firmId, String contactName, String contactJob, String address, String city, String region, String postalCoda, String country, String phoneNum, String email, LocalDateTime regDate) {
+    public Client(String name, int id, String firmName, String contactName, String contactJob, String address, String city, String region, String postCode, String country, String phoneNum, String email, LocalDateTime registerDate) {
+        this.name = name;
         this.id = id;
-        this.firmId = firmId;
+        this.firmName = firmName;
         this.contactName = contactName;
         this.contactJob = contactJob;
         this.address = address;
         this.city = city;
         this.region = region;
-        this.postalCoda = postalCoda;
+        this.postCode = postCode;
         this.country = country;
         this.phoneNum = phoneNum;
         this.email = email;
-        this.regDate = regDate;
+        this.registerDate = registerDate;
     }
 
-    public String getId() {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public String getFirmId() {return firmId;}
+    public String getFirmName() {
+        return firmName;
+    }
 
-    public void setFirmId(String firmId) {
-        this.firmId = firmId;
+    public void setFirmName(String firmName) {
+        this.firmName = firmName;
     }
 
     public String getContactName() {
@@ -82,18 +92,20 @@ public class Client {
         this.city = city;
     }
 
-    public String getRegion() {return region;}
+    public String getRegion() {
+        return region;
+    }
 
     public void setRegion(String region) {
         this.region = region;
     }
 
-    public String getPostalCoda() {
-        return postalCoda;
+    public String getPostCode() {
+        return postCode;
     }
 
-    public void setPostalCoda(String postalCoda) {
-        this.postalCoda = postalCoda;
+    public void setPostCode(String postCoda) {
+        this.postCode = postCoda;
     }
 
     public String getCountry() {
@@ -120,30 +132,30 @@ public class Client {
         this.email = email;
     }
 
-    public LocalDateTime getRegDate() {
-        return regDate;
+    public LocalDateTime getRegisterDate() {
+        return registerDate;
     }
 
-    public void setRegDate(LocalDateTime regDate) {
-        this.regDate = regDate;
+    public void setRegisterDate(LocalDateTime registerDate) {
+        this.registerDate = registerDate;
     }
 
     @Override
     public String toString() {
         return "Client{" +
-                "id='" + id + '\'' +
-                ", firmId='" + firmId + '\'' +
+                "name='" + name + '\'' +
+                ", id='" + id + '\'' +
+                ", firmName='" + firmName + '\'' +
                 ", contactName='" + contactName + '\'' +
                 ", contactJob='" + contactJob + '\'' +
                 ", address='" + address + '\'' +
                 ", city='" + city + '\'' +
                 ", region='" + region + '\'' +
-                ", postalCoda='" + postalCoda + '\'' +
+                ", postCoda='" + postCode + '\'' +
                 ", country='" + country + '\'' +
                 ", phoneNum='" + phoneNum + '\'' +
                 ", email='" + email + '\'' +
-                ", regDate=" + regDate +
+                ", registerDate=" + registerDate +
                 '}';
     }
-
 }

@@ -13,41 +13,43 @@ public interface ClientMapper {
      * @return List的Client的类
      */
     @Select("""
-            select id,
-                   firm_id,
+            select name,
+                   id,
+                   firm_name,
                    contact_name,
                    contact_job,
                    address,
                    city,
                    region,
-                   postal_coda,
+                   post_code,
                    country,
                    phone_num,
                    email,
-                   reg_date
+                   register_date
             from Client
             """)
     List<Client> findAll();
 
     /**
      * 根据id查询Client表中数据
-     * @param id 主键
+     * @param name 主键
      * @return Client类
      */
     @Select("""
-        select id,
-               firm_id,
+        select name,
+               id,
+               firm_name,
                contact_name,
                contact_job,
                address,
                city,
                region,
-               postal_coda,
+               post_code,
                country,
                phone_num,
                email,
-               reg_date
-        from Client where id = #{id}
+               register_date
+        from Client where name = #{name}
     """)
-    Client findById(String id);
+    Client findById(String name);
 }
