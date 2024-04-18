@@ -1,9 +1,11 @@
 package com.snp;
 
 import com.snp.dto.Client;
+import com.snp.dto.Product;
 import com.snp.dto.Provider;
 import com.snp.dto.Type;
 import com.snp.mapper.ClientMapper;
+import com.snp.mapper.ProductMapper;
 import com.snp.mapper.ProviderMapper;
 import com.snp.mapper.TypeMapper;
 import org.junit.jupiter.api.Test;
@@ -21,11 +23,13 @@ public class MapperTest {
     ProviderMapper providerMapper;
     @Autowired
     TypeMapper typeMapper;
+    @Autowired
+    ProductMapper productMapper;
     @Test
     public void test1(){
-        List<Type> typeList = typeMapper.findAll();
-        for(Type type:typeList){
-            System.out.println(type);
+        List<Product> productList = productMapper.findAll();
+        for(Product product:productList){
+            System.out.println(product);
         }
     }
 }
