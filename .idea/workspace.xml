@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fc7e12c-5bac-4de9-ada5-b55ee58b6812" name="更改" comment="新建项目">
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/dto/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/mapper/ProviderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1234ddc5-cc65-4667-9a0d-66b648cce0c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1234ddc5-cc65-4667-9a0d-66b648cce0c3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1234ddc5-cc65-4667-9a0d-66b648cce0c3/storage_v2/_src_/database/keshe.FnkTBg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1234ddc5-cc65-4667-9a0d-66b648cce0c3/storage_v2/_src_/database/keshe.FnkTBg/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1234ddc5-cc65-4667-9a0d-66b648cce0c3/storage_v2/_src_/database/keshe.FnkTBg/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1234ddc5-cc65-4667-9a0d-66b648cce0c3/storage_v2/_src_/database/keshe.FnkTBg/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1234ddc5-cc65-4667-9a0d-66b648cce0c3/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1234ddc5-cc65-4667-9a0d-66b648cce0c3/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1234ddc5-cc65-4667-9a0d-66b648cce0c3/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1234ddc5-cc65-4667-9a0d-66b648cce0c3/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/dto/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/mapper/TypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/service/impl/ClientServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/com/snp/demo1App.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/demo1App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/com/snp/dto/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/dto/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo1/src/main/java/com/snp/mapper/ClientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/snp/mapper/ClientMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo1/src/test/java/com/snp/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/test/java/com/snp/MapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,7 +91,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MapperTest.test1">
+  <component name="RunManager" selected="Spring Boot.demo1App">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="demo2" />
@@ -166,10 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MapperTest.test1" />
         <item itemvalue="Spring Boot.demo1App" />
+        <item itemvalue="JUnit.MapperTest.test1" />
         <item itemvalue="应用程序.Main" />
         <item itemvalue="Spring Boot.Demo1App" />
+        <item itemvalue="JUnit.MapperTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +194,7 @@
       <workItem from="1712822497966" duration="31000" />
       <workItem from="1713277311479" duration="224000" />
       <workItem from="1713277616111" duration="990000" />
-      <workItem from="1713343254802" duration="6981000" />
+      <workItem from="1713343254802" duration="12924000" />
     </task>
     <task id="LOCAL-00001" summary="新建项目">
       <option name="closed" value="true" />
@@ -245,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711467289840</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新建项目">
+      <option name="closed" value="true" />
+      <created>1713357812634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713357812634</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

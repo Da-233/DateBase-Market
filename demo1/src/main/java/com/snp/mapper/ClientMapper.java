@@ -51,5 +51,7 @@ public interface ClientMapper {
                register_date
         from Client where name = #{name}
     """)
-    Client findById(String name);
+    Client findByName(String name);
+    @Select("SELECT * FROM Client WHERE id = #{id}")
+    Client findById(int id);
 }
