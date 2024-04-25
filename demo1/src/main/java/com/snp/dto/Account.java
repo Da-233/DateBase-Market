@@ -4,7 +4,7 @@ public class Account {
     int rankId;
     int userId;
     String acc;
-    String accKey;
+    String Key;
 
     public Account() {
     }
@@ -13,7 +13,7 @@ public class Account {
         this.rankId = rankId;
         this.userId = userId;
         this.acc = acc;
-        this.accKey = accKey;
+        this.Key = accKey;
     }
 
     public int getRankId() {
@@ -40,12 +40,12 @@ public class Account {
         this.acc = acc;
     }
 
-    public String getAccKey() {
-        return accKey;
+    public String getKey() {
+        return Key;
     }
 
-    public void setAccKey(String accKey) {
-        this.accKey = accKey;
+    public void setKey(String Key) {
+        this.Key = Key;
     }
 
     @Override
@@ -54,7 +54,7 @@ public class Account {
                 "rankId=" + rankId +
                 ", userId=" + userId +
                 ", acc='" + acc + '\'' +
-                ", accKey='" + accKey + '\'' +
+                ", accKey='" + Key + '\'' +
                 '}';
     }
 }

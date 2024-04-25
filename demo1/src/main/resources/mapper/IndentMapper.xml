@@ -1,0 +1,3 @@
+<select id="regionNum" parameterType="com.snp.dto.Indent" statementType="CALLABLE">
+    {exec Pro_work5}
+</select>

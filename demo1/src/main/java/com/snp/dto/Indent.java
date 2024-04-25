@@ -2,6 +2,8 @@ package com.snp.dto;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Map;
 
 public class Indent {
     int id;
@@ -203,4 +205,13 @@ public class Indent {
                 ", remark='" + remark + '\'' +
                 '}';
     }
+
+//    public static String LMToString(List<Map<String, Object>> list){
+//        String s = "[";
+//        for(Map<String, Object> map:list){
+//            for()
+//        }
+//
+//        return s;
+//    }
 }

@@ -2,9 +2,9 @@ package com.snp.dto;
 
 public class Provider {
     private int id;
-    private String firm_name;
+    private String firmName;
     private String contactName;
-    private String contactJod;
+    private String contactJob;
     private String country;
     private String region;
     private String city;
@@ -17,11 +17,11 @@ public class Provider {
     public Provider() {
     }
 
-    public Provider(int id, String firm_name, String contactName, String contactJod, String country, String region, String city, String address, String postCode, String phoneNum, String faxNum, String hostpage) {
+    public Provider(int id, String firmName, String contactName, String contactJob, String country, String region, String city, String address, String postCode, String phoneNum, String faxNum, String hostpage) {
         this.id = id;
-        this.firm_name = firm_name;
+        this.firmName = firmName;
         this.contactName = contactName;
-        this.contactJod = contactJod;
+        this.contactJob = contactJob;
         this.country = country;
         this.region = region;
         this.city = city;
@@ -40,12 +40,12 @@ public class Provider {
         this.id = id;
     }
 
-    public String getFirm_name() {
-        return firm_name;
+    public String getFirmName() {
+        return firmName;
     }
 
-    public void setFirm_name(String firm_name) {
-        this.firm_name = firm_name;
+    public void setFirmName(String firmName) {
+        this.firmName = firmName;
     }
 
     public String getContactName() {
@@ -56,12 +56,12 @@ public class Provider {
         this.contactName = contactName;
     }
 
-    public String getContactJod() {
-        return contactJod;
+    public String getContactJob() {
+        return contactJob;
     }
 
-    public void setContactJod(String contactJod) {
-        this.contactJod = contactJod;
+    public void setContactJob(String contactJob) {
+        this.contactJob = contactJob;
     }
 
     public String getCountry() {
@@ -132,9 +132,9 @@ public class Provider {
     public String toString() {
         return "Provider{" +
                 "id=" + id +
-                ", firm_name='" + firm_name + '\'' +
+                ", firmName='" + firmName + '\'' +
                 ", contactName='" + contactName + '\'' +
-                ", contactJod='" + contactJod + '\'' +
+                ", contactJob='" + contactJob + '\'' +
                 ", country='" + country + '\'' +
                 ", region='" + region + '\'' +
                 ", city='" + city + '\'' +

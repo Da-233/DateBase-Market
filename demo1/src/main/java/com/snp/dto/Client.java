@@ -158,4 +158,13 @@ public class Client {
                 ", registerDate=" + registerDate +
                 '}';
     }
+
+    public static String intToString(int num){
+        StringBuilder string= new StringBuilder();
+        for(int cnt = 0; cnt < 5; cnt++){
+            string.append((char) (65 + num % 26));
+            num/=26;
+        }
+        return string.toString();
+    }
 }

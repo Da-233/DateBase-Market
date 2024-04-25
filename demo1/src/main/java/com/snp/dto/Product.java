@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 public class Product {
     int id;
     String name;
+
     String unitNum;
     int providerId;
     int typeId;

@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 
 public class Employee {
     int id;
+    String surname;
     String name;
     String job;
     String honName;
@@ -17,14 +18,18 @@ public class Employee {
     String address;
     String postCode;
     String graph;
+    String email;
     String remark;
     int leader;
+
+    int indentNum;
 
     public Employee() {
     }
 
-    public Employee(int id, String name, String job, String honName, LocalDateTime birthDate, LocalDateTime workDate, String phoneNum, String innerPhone, String country, String region, String city, String address, String postCode, String graph, String remark, int leader) {
+    public Employee(int id, String surname, String name, String job, String honName, LocalDateTime birthDate, LocalDateTime workDate, String phoneNum, String innerPhone, String country, String region, String city, String address, String postCode, String graph, String email, String remark, int leader, int indentNum) {
         this.id = id;
+        this.surname = surname;
         this.name = name;
         this.job = job;
         this.honName = honName;
@@ -38,8 +43,26 @@ public class Employee {
         this.address = address;
         this.postCode = postCode;
         this.graph = graph;
+        this.email = email;
         this.remark = remark;
         this.leader = leader;
+        this.indentNum = indentNum;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public int getId() {
@@ -170,25 +193,36 @@ public class Employee {
         this.leader = leader;
     }
 
+    public int getIndentNum() {
+        return indentNum;
+    }
+
+    public void setIndentNum(int indentNum) {
+        this.indentNum = indentNum;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", job='" + job + '\'' +
-                ", honName='" + honName + '\'' +
-                ", birthDate=" + birthDate +
-                ", workDate=" + workDate +
-                ", phoneNum='" + phoneNum + '\'' +
-                ", innerPhone='" + innerPhone + '\'' +
-                ", country='" + country + '\'' +
-                ", region='" + region + '\'' +
-                ", city='" + city + '\'' +
-                ", address='" + address + '\'' +
-                ", postCode='" + postCode + '\'' +
-                ", graph='" + graph + '\'' +
-                ", remark='" + remark + '\'' +
-                ", leader=" + leader +
-                '}';
+               "id=" + id +
+               ", surname='" + surname + '\'' +
+               ", name='" + name + '\'' +
+               ", job='" + job + '\'' +
+               ", honName='" + honName + '\'' +
+               ", birthDate=" + birthDate +
+               ", workDate=" + workDate +
+               ", phoneNum='" + phoneNum + '\'' +
+               ", innerPhone='" + innerPhone + '\'' +
+               ", country='" + country + '\'' +
+               ", region='" + region + '\'' +
+               ", city='" + city + '\'' +
+               ", address='" + address + '\'' +
+               ", postCode='" + postCode + '\'' +
+               ", graph='" + graph + '\'' +
+               ", email='" + email + '\'' +
+               ", remark='" + remark + '\'' +
+               ", leader=" + leader +
+               ", indentNum=" + indentNum +
+               '}';
     }
 }
